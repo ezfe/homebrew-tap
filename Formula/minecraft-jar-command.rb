@@ -9,8 +9,8 @@ class MinecraftJarCommand < Formula
     sha256 "c436448191568aacfc2f44b99ec46b5b31fafdf651993d70d4fbc16e47f0c69a"
   end
 
-  depends_on xcode: "12"
   depends_on "openjdk"
+  depends_on xcode: "12"
 
   def install
     system "swift", "build", "--disable-sandbox", "-c", "release"
