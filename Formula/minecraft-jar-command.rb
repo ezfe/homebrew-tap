@@ -4,9 +4,9 @@ class MinecraftJarCommand < Formula
   head "https://github.com/ezfe/minecraft-jar-command.git"
 
   stable do
-    version "v2.1.0"
+    version "v2.2.0"
     url "https://github.com/ezfe/minecraft-jar-command/archive/#{version}.tar.gz"
-    sha256 "c436448191568aacfc2f44b99ec46b5b31fafdf651993d70d4fbc16e47f0c69a"
+    sha256 "faa3bebc11ad9e04a21caf6d525db5f1cdf0a3569069a06f0e21a45f340d30db"
   end
 
   depends_on "openjdk"
