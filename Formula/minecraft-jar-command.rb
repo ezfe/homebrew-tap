@@ -4,12 +4,12 @@ class MinecraftJarCommand < Formula
   head "https://github.com/ezfe/minecraft-jar-command.git"
 
   stable do
-    version "v2.3.2"
+    version "v2.3.3"
     url "https://github.com/ezfe/minecraft-jar-command/archive/#{version}.tar.gz"
-    sha256 "90d60e8c2cf2b8af5581caf146e51755c7e59dd03142a225f9fa4b64e8b56e95"
+    sha256 "b02819a6896d8a57eb401b6f8cedb2ed65aecf903edd3acb80cea261d8122a04"
   end
 
-  depends_on "openjdk"
+  # depends_on "openjdk@8"
   depends_on xcode: "12"
 
   def install
